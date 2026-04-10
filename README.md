@@ -1,5 +1,7 @@
 # Dental Viewer
 
+![Dental Viewer screenshot](screenshot.jpeg)
+
 A native macOS viewer for dental **CBCT (cone-beam CT)** scans. Loads a folder
 of DICOM slices, stacks them into a 3D volume, and renders them with a Metal
 volume raycaster — plus three orthogonal MPR (multi-planar reformat) slice
