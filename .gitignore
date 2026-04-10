@@ -1,0 +1,23 @@
+# Build artifacts
+.build/
+build/
+*.o
+*.a
+*.dylib
+*.dSYM/
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# macOS noise
+.DS_Store
+
+# Patient / sample DICOM data — never commit PHI
+20260403/
+IMGDATA/
+*.dcm
+
+# Editor
+.vscode/
+.idea/
+*.swp
